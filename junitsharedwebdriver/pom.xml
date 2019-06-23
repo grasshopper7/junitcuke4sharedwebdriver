@@ -59,12 +59,9 @@
 					<execution>
 						<goals>
 							<goal>integration-test</goal>
+							<goal>verify</goal>
 						</goals>
 						<configuration>
-							<includes>
-								<include>**/*Runner.java</include>
-							</includes>
-
 							<parallel>methods</parallel>
 							<useUnlimitedThreads>true</useUnlimitedThreads>
 						</configuration>
